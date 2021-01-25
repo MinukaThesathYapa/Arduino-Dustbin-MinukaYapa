@@ -30,6 +30,8 @@ pinMode(echoPin, INPUT);
 duration = pulseIn(echoPin, HIGH);
 dist = (duration/2) / 29.1;   
 }
+
+
 void loop() { 
   for (int i=0;i<=2;i++) {
     measure();               
